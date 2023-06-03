@@ -1,6 +1,5 @@
 import "../App.css";
-const Weather = (props) => {
-  const { weather } = props;
+const Weather = ({ weather }) => {
   if (!weather) {
     return <p>Yükleniyor...</p>;
   }
